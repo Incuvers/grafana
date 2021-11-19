@@ -3,6 +3,8 @@ FROM grafana/grafana-arm64v8-linux:latest
 LABEL version "v1.0.0"
 LABEL Christian Sargusingh "https://github.com/cSDes1gn"
 
+USER grafana
+
 ENV GF_SECURITY_ADMIN_USER "admin"
 ENV GF_SECURITY_ADMIN_PASSWORD "incuvers"
 
