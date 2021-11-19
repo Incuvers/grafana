@@ -1,7 +1,7 @@
 # Incuvers Grafana Image
-![img](docs/img/Incuvers-black.png)
-
 [![deploy](https://github.com/Incuvers/grafana/actions/workflows/deploy.yaml/badge.svg)](https://github.com/Incuvers/grafana/actions/workflows/deploy.yaml)
+
+![img](docs/img/Incuvers-black.png)
 
 Modified: 2021-11
 
