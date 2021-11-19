@@ -29,6 +29,8 @@ jobs:
             latest=auto
             prefix=
             suffix=
+          tags: |
+            type=raw,value=latest
           images: |
             ghcr.io/${{ github.repository }}
       - name: Build and push image
