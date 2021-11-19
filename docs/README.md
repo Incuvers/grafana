@@ -5,7 +5,6 @@ Modified: 2021-11
 ## Source Build
 
 ```bash
-docker build 
+docker build -f docker/Dockerfile . 
 ...
-docker run
 ```
