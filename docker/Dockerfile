@@ -1,4 +1,4 @@
-FROM grafana/grafana:latest
+FROM grafana/grafana-arm64v8-linux:latest
 
 LABEL version "v1.0.0"
 LABEL Christian Sargusingh "https://github.com/cSDes1gn"
