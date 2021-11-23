@@ -5,10 +5,6 @@ LABEL Christian Sargusingh "https://github.com/cSDes1gn"
 
 USER grafana
 
-ENV GF_SECURITY_ADMIN_USER "admin"
-ENV GF_SECURITY_ADMIN_PASSWORD "incuvers"
-ENV GF_USERS_ALLOW_SIGN_UP "false"
-
 # package custom config
 ADD grafana/provisioning /etc/grafana/provisioning
 ADD grafana/grafana.ini /etc/grafana/grafana.ini
