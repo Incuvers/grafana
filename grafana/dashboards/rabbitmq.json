@@ -1220,7 +1220,7 @@
         "timeShift": null,
         "title": "",
         "transform": "table",
-        "type": "table-old"
+        "type": "table"
       },
       {
         "aliasColors": {},
